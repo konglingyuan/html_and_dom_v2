@@ -10,7 +10,6 @@ function getScore () {
   }
 
   var defaultAnswers = DefaultAnswer.all();
-
   var totalScore = new TotalScore(document, defaultAnswers);
 
   var account = document.getElementById("account");
