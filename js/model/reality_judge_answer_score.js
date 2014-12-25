@@ -8,7 +8,6 @@ RealityJudgeAnswerScore.prototype.constructor = RealityJudgeAnswerScore;
 
 RealityJudgeAnswerScore.prototype.getScore = function(document) {
   var elements = document.getElementsByName(this.questionNum);
-
   var oneNum = _.find(elements, { checked : true });
 
   if(oneNum) {
